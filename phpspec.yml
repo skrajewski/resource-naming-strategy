@@ -1,0 +1,4 @@
+suites:
+    suite:
+        namespace: Szykra\NamingStrategy
+        psr4_prefix: Szykra\NamingStrategy
