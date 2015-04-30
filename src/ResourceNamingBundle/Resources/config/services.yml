@@ -1,0 +1,3 @@
+services:
+    szykra.naming_strategy.resource_naming_strategy:
+        class: Szykra\NamingStrategy\ResourceNamingStrategy
