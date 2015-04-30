@@ -15,7 +15,7 @@ class ResourceNamingStrategy implements NamingStrategy
 
     public function __construct($locale = "en")
     {
-        $this->inflector = Inflector::get();
+        $this->inflector = Inflector::get($locale);
     }
 
     /**
@@ -27,6 +27,10 @@ class ResourceNamingStrategy implements NamingStrategy
      */
     function classToTableName($className)
     {
+        if (strpos($className, "\\") !== false) {
+            $className = substr($className, strrpos($className, "\\") + 1);
+        }
+
         $tableName = $this->inflector->pluralize($className);
         $tableName = $this->inflector->underscore($tableName);
 

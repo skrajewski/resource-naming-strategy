@@ -28,6 +28,11 @@ class ResourceNamingStrategySpec extends ObjectBehavior
         $this->classToTableName("task_detail")->shouldReturn("task_details");
     }
 
+    function it_return_Table_name_from_full_class_name()
+    {
+        $this->classToTableName("App\\Entities\\Car")->shouldReturn("cars");
+    }
+
     function it_return_column_name_from_property_name()
     {
         $this->propertyToColumnName("firstName")->shouldReturn("first_name");
