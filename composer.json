@@ -1,5 +1,6 @@
 {
     "name": "szykra/resource-naming-strategy",
+    "version": "0.1.0",
     "license": "MIT",
     "keywords": ["doctrine", "symfony", "naming", "strategy", "resource", "orm"],
     "description": "Resource Naming Strategy for Doctrine ORM",
