@@ -14,6 +14,9 @@ Simple? I know resource named _flower_ sounds easier but sometimes it's more con
 
 This strategy is similar to the _Laravel_ naming convention (See [mapping](#mapping) section).
 
+## Requirements
+This package uses `icanboogie/inflector` and it requires a **mbstring** php extension.
+
 ## Instalation
 
 ### Install via composer
