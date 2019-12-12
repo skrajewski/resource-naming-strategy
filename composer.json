@@ -1,6 +1,6 @@
 {
     "name": "szykra/resource-naming-strategy",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "license": "MIT",
     "keywords": ["doctrine", "symfony", "naming", "strategy", "resource", "orm"],
     "description": "Resource Naming Strategy for Doctrine ORM",
@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "icanboogie/inflector": "~1.3.0",
+        "icanboogie/inflector": "~1.3.0|~2.0.0",
         "doctrine/orm": "~2.3"
     },
     "require-dev": {
