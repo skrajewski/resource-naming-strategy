@@ -1,7 +1,7 @@
 Resource Naming Strategy
 =======================
 [![building](https://img.shields.io/travis/skrajewski/resource-naming-strategy.svg)](https://travis-ci.org/skrajewski/resource-naming-strategy)
-[![codeclimate](https://img.shields.io/codeclimate/github/skrajewski/resource-naming-strategy.svg)](https://codeclimate.com/github/skrajewski/resource-naming-strategy)
+[![codeclimate](https://img.shields.io/codeclimate/maintainability/skrajewski/resource-naming-strategy)](https://codeclimate.com/github/skrajewski/resource-naming-strategy)
 [![version](https://img.shields.io/packagist/v/szykra/resource-naming-strategy.svg)](https://packagist.org/packages/szykra/resource-naming-strategy)
 [![license](https://img.shields.io/packagist/l/szykra/resource-naming-strategy.svg)](https://packagist.org/packages/szykra/resource-naming-strategy)
 
