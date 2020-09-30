@@ -47,6 +47,10 @@ class ResourceNamingStrategy implements NamingStrategy
      */
     function propertyToColumnName($propertyName, $className = null)
     {
+        if (strpos($propertyName, "\\") !== false) {
+            $propertyName = substr($propertyName, strrpos($propertyName, "\\") + 1);
+        }
+
         return $this->inflector->underscore($propertyName);
     }
 
