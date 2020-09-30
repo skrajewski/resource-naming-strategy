@@ -115,4 +115,4 @@ Two singular lowercase entity names in ascending order with words separated by t
 | Work     | TimeLog  | time_log_work |
 
 ## License
-The MIT License. Copyright &copy; 2015 Szymon Krajewski.
+The MIT License. Copyright &copy; 2015 - 2020 Szymon Krajewski.
